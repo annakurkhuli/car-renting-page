@@ -1,0 +1,87 @@
+
+:root {
+    --primary-color: rgba(53, 99, 233, 1);
+    --secondary-color: rgba(84, 166, 255, 1);
+    --white-color: rgba(255, 255, 255, 1);
+    --background-color: rgba(246, 247, 249, 1);
+    --black-color: #000;
+    --border: 1px solid rgba(195, 212, 233, 0.4);
+
+}
+
+body {
+    padding-inline: 64px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+     
+    .logo-search-wrapper {
+        display: flex;
+        gap: 84px;
+        align-items: center;
+
+        .search {
+            width:492px;
+            height: 44px;
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: var(--white-color);
+            border: var(--border);
+
+            img{
+                width: 24px;
+                height: 24px;
+                border-radius: 70px;
+                padding-inline: 10px;
+            }
+
+            .input {
+                border:none;
+                flex:1;
+                outline: none;
+            }
+            
+
+            }
+        }
+
+    }
+
+
+    .cta-wrapper {
+        display: flex;
+        gap: 20px;
+        align-items:center ;
+        
+        .cta {
+            width: 44px;
+            height: 44px;
+            border-radius: 70px;
+            border: var(--border);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            img {
+                width: 24px;
+                height: 24px;                   
+                }
+            
+            .last-child {
+                width:44px;
+                height: 44px;
+                border-radius: 50%;
+            }
+            }
+        }
+
+        
+
+        
+
